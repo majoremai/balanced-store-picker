@@ -1,18 +1,16 @@
 # Majórem Store Picker™ 
 ### Build balanced callfiles with confidence and clarity.
 
----
-
 ## Why this exists
-
-Callfiles shape how teams show up in the market. Yet most callfiles are built from habit: recycled lists, legacy priorities, or whatever feels familiar. The result is uneven coverage, skewed insights and missed opportunities.
+> [!NOTE]
+> Callfiles shape how teams show up in the market. Yet most callfiles are built from habit: recycled lists, legacy priorities, or whatever feels familiar. The result is uneven coverage, skewed insights and missed opportunities.
 
 The **Majórem Store Picker™** changes that. 
 It offers a simple, structured way to create a callfile that genuinely reflects your universe — not guesswork, not convenience, not a spreadsheet stitched together at speed.
 
 It’s built for teams who want their field decisions to be fairer, smarter and anchored in reality.
+##
 
----
 
 ## What it does (in plain English)
 
@@ -128,7 +126,7 @@ We believe great tools should:
 
 The Store Picker™ reflects that philosophy: practical, structured and designed for the way teams actually work.
 
----
+##
 
 ## A real example (anonymised)
 
@@ -148,7 +146,7 @@ Focused conversations replaced debates about “why that store?”.
 The field team gained clarity.
 Leadership gained confidence.
 
----
+## 
 
 ## What’s included
 
