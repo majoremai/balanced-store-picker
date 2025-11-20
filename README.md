@@ -26,18 +26,16 @@ No complexity for the sake of it.
 No technical friction. 
 Just a clear, defensible selection — every time.
 
----
+##
 
 ## Who it’s for
-
 - Field teams who want a callfile they can trust 
 - Strategy and insights teams running measurement cycles or pilots 
 - Commercial leads who want to remove bias from planning 
 - Anyone tired of “the same old stores” making the list 
 
 If you’ve ever questioned whether a callfile is truly representative, this is designed for you.
-
----
+##
 
 ## The idea in one picture
 
@@ -82,7 +80,7 @@ If you’ve ever questioned whether a callfile is truly representative, this is 
 └────────────────────┘
 
 ````
----
+##
 
 ## How to use it
 
@@ -111,7 +109,7 @@ selected = pick_stores(
 ```
 That’s all you need.
 
----
+##
 
 ## What makes it “Majórem”
 
@@ -158,7 +156,7 @@ Leadership gained confidence.
 
 Everything is written to be clear, practical and easy to adapt.
 
----
+##
 
 ## Where this is heading
 
@@ -174,10 +172,8 @@ Next on the path:
 Majórem’s aim is simple:
 Make field strategy cleaner, smarter and more confident.
 
----
+##
 
 ## Licence
 
 MIT Licence. Use it, build on it, or adapt it to your own workflow.
-
-````
