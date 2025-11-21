@@ -132,7 +132,7 @@ _The Store Picker™_ reflects that philosophy: practical, structured and design
 
 A national supplier needed 120 stores for a measurement cycle.
 > [!NOTE]
->The old approach was manual — “grab a few from each region.”
+>The old approach was manual — _**“grab a few from each region.”**_
 It felt easy, but it consistently oversampled big, familiar stores and ignored newer formats.
 
 With _**The Store Picker™**_:
