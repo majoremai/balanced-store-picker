@@ -174,4 +174,4 @@ Next on the path:
 
 ## Licence
 
-MIT Licence. Use it, build on it, or adapt it to your own workflow.
+**MIT Licence**. Use it, build on it, or adapt it to your own workflow.
