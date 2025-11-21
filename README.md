@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)
 ![Status](https://img.shields.io/badge/Status-Stable-brightgreen.svg)
 #### Build balanced callfiles with confidence and clarity.
-A lightweight, defensible stratified sampling engine for building balanced field callfiles
+_A lightweight, defensible stratified sampling engine for building balanced field callfiles_
 
 ## Why this exists
 > [!NOTE]
