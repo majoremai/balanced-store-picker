@@ -131,7 +131,7 @@ _The Store Picker™_ reflects that philosophy: practical, structured and design
 ## A real example _(anonymised)_
 
 A national supplier needed 120 stores for a measurement cycle.
-
+> [!NOTE]
 >The old approach was manual — “grab a few from each region.”
 It felt easy, but it consistently oversampled big, familiar stores and ignored newer formats.
 
@@ -166,9 +166,10 @@ Next on the path:
 * Diagnostic packs with automated reporting
 * YAML workflows for non-technical teams
 * Integration with route planning and ROI models
-
-Majórem’s aim is simple:
-Make field strategy cleaner, smarter and more confident.
+  
+>[!IMPORTANT]
+>**Majórem.ai’s** aim is simple:
+>Make field strategy cleaner, smarter and more confident.
 
 
 ## Licence
