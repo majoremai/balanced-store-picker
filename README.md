@@ -89,7 +89,7 @@ If you’ve ever questioned whether a callfile is truly representative, this is 
 > [!TIP]
 > The fastest way to run _**The Store Picker™**_:
 
-### Command line
+#### Command line
 
 ```bash
 python store_picker.py \
@@ -100,7 +100,7 @@ python store_picker.py \
     --strat-cols Country Region Store_Format Store_Type Category
 ````
 
-### Or inside Python
+#### Or inside Python
 
 ```python
 from store_picker import pick_stores
