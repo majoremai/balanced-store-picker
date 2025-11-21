@@ -1,19 +1,23 @@
 # Majórem Store Picker™ 
-### Build balanced callfiles with confidence and clarity.
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)
+![Status](https://img.shields.io/badge/Status-Stable-brightgreen.svg)
+#### Build balanced callfiles with confidence and clarity.
+A lightweight, defensible stratified sampling engine for building balanced field callfiles
 
 ## Why this exists
 > [!NOTE]
 > Callfiles shape how teams show up in the market. Yet most callfiles are built from habit: recycled lists, legacy priorities, or whatever feels familiar. The result is uneven coverage, skewed insights and missed opportunities.
 
-The **Majórem Store Picker™** changes that. 
+The _**Majórem Store Picker™**_ changes that. 
 It offers a simple, structured way to create a callfile that genuinely reflects your universe — not guesswork, not convenience, not a spreadsheet stitched together at speed.
 
 It’s built for teams who want their field decisions to be fairer, smarter and anchored in reality.
 
 
-## What it does (in plain English)
+## What it does _(in plain English)_
 
-The Store Picker™ takes your full store universe and:
+_The Store Picker™_ takes your full store universe and:
 
 1. **Cleans** and standardises it
 2. **Groups stores** into meaningful segments (e.g., Region × Format) 
@@ -26,7 +30,7 @@ No technical friction.
 Just a clear, defensible selection — every time.
 
 
-## Who it’s for
+### Who it’s for
 - Field teams who want a callfile they can trust 
 - Strategy and insights teams running measurement cycles or pilots 
 - Commercial leads who want to remove bias from planning 
@@ -37,7 +41,8 @@ If you’ve ever questioned whether a callfile is truly representative, this is 
 
 
 ## The idea in one picture
-
+> [!TIP]
+> A simplified visual of how the Store Picker™ transforms a raw store universe into a balanced callfile.
 ```
 
 ┌────────────────────┐
@@ -81,6 +86,8 @@ If you’ve ever questioned whether a callfile is truly representative, this is 
 ````
 
 ## How to use it
+> [!TIP]
+> The fastest way to run the _Store Picker™_:
 
 ### Command line
 
@@ -108,9 +115,9 @@ selected = pick_stores(
 That’s all you need.
 
 
-## What makes it “Majórem”
+## What makes it “Majórem.ai”
 
-Majórem builds tools that make field strategy feel modern, not mechanical.
+**Majórem.ai** builds tools that make field strategy feel modern, not mechanical.
 
 We believe great tools should:
 
@@ -119,33 +126,29 @@ We believe great tools should:
 * **Be flexible enough to reuse and scale**
 * **Support real commercial routines**, not idealised ones
 
-The Store Picker™ reflects that philosophy: practical, structured and designed for the way teams actually work.
+_The Store Picker™_ reflects that philosophy: practical, structured and designed for the way teams actually work.
 
-
-
-## A real example (anonymised)
+## A real example _(anonymised)_
 
 A national supplier needed 120 stores for a measurement cycle.
 
-The old approach was manual — “grab a few from each region.”
+>The old approach was manual — “grab a few from each region.”
 It felt easy, but it consistently oversampled big, familiar stores and ignored newer formats.
 
-With the Store Picker™:
+With _**The Store Picker™**_:
 
 * Every region contributed proportionally
 * Smaller formats weren’t lost in the mix
 * The team could justify their selection in one slide
 * Re-running the callfile for future cycles took seconds
 
-Focused conversations replaced debates about “why that store?”.
+Focused conversations replaced debates about _**“why that store?”**_.
 The field team gained clarity.
 Leadership gained confidence.
 
-
-
 ## What’s included
 
-* The Store Picker™ engine
+* _**The Store Picker™**_ engine
 * A simple command-line interface
 * A worked example using synthetic data
 * A sample project brief that mirrors real use cases
@@ -153,11 +156,9 @@ Leadership gained confidence.
 
 Everything is written to be clear, practical and easy to adapt.
 
-
-
 ## Where this is heading
 
-The Store Picker™ is the first step in Majórem’s broader **Field Intelligence Suite** — a set of tools designed to modernise how organisations plan, measure and deploy field activity.
+_**The Store Picker™**_ is the first step in Majórem’s broader **Field Intelligence Suite** — a set of tools designed to modernise how organisations plan, measure and deploy field activity.
 
 Next on the path:
 
@@ -168,7 +169,6 @@ Next on the path:
 
 Majórem’s aim is simple:
 Make field strategy cleaner, smarter and more confident.
-
 
 
 ## Licence
