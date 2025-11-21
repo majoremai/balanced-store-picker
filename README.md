@@ -87,7 +87,7 @@ If you’ve ever questioned whether a callfile is truly representative, this is 
 
 ## How to use it
 > [!TIP]
-> The fastest way to run the _Store Picker™_:
+> The fastest way to run _**The Store Picker™**_:
 
 ### Command line
 
