@@ -15,11 +15,11 @@ It’s built for teams who want their field decisions to be fairer, smarter and 
 
 The Store Picker™ takes your full store universe and:
 
-1. **Cleans and standardises it** 
-2. **Groups stores into meaningful segments** (e.g., Region × Format) 
-3. **Works out how many stores each segment should contribute** 
-4. **Selects those stores in a fair, consistent way** 
-5. **Produces a balanced callfile you can stand behind**
+1. **Cleans** and standardises it
+2. **Groups stores** into meaningful segments (e.g., Region × Format) 
+3. Works out **how many stores each segment should contribute** 
+4. Selects those stores in a **fair, consistent way** 
+5. Produces a **balanced callfile** you can stand behind
 
 No complexity for the sake of it. 
 No technical friction. 
