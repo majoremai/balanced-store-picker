@@ -30,7 +30,7 @@ No technical friction.
 Just a clear, defensible selection — every time.
 
 
-### Who it’s for
+## Who it’s for
 - Field teams who want a callfile they can trust 
 - Strategy and insights teams running measurement cycles or pilots 
 - Commercial leads who want to remove bias from planning 
