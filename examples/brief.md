@@ -9,9 +9,12 @@ It can be used to:
 
 ## Context 
 > [!NOTE]  
-> The current callfile hasn’t been chosen — The same grocery stores keep appearing because they’re familiar, easy to justify and rarely questioned. That has led to uneven representation, skewed activation insight and tension between Commercial, Field and Measurement teams who are working from different assumptions.
+> The current callfile hasn’t been chosen — The same grocery stores keep appearing because they’re familiar, easy to justify and rarely questioned.
+> That has led to uneven representation, skewed activation insight and tension between Commercial, Field and Measurement teams who are working from different assumptions.
 
-_**The Majórem Store Picker™**_ replaces that pattern with structure — creating a balanced callfile that reflects the real grocery universe: proportionate, consistent and simple to defend. Not another spreadsheet workaround, but a repeatable way of working that removes debate and strengthens confidence in activation results.
+_**The Majórem Store Picker™**_ replaces that pattern with structure — creating a balanced callfile that reflects the real grocery universe: proportionate, consistent and simple to defend. 
+
+Not another spreadsheet workaround, but a repeatable way of working that removes debate and strengthens confidence in activation results.
 
 
 ### The Controller's Email
