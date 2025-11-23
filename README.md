@@ -51,19 +51,19 @@ If you’ve ever questioned whether a callfile is truly representative, this is 
           │
           ▼
 ┌────────────────────┐
-│   Make it clean    │
+│    Make it clean   │
 └─────────┬──────────┘
           │
           ▼
 ┌────────────────────┐
 │   Group by what    │
 │      matters       │
-│ (Region, Format…)  │
+│  (Region, Format)  │
 └─────────┬──────────┘
           │
           ▼
 ┌────────────────────┐
-│  Allocate fairly    │
+│   Allocate fairly  │
 └─────────┬──────────┘
           │
           ▼
@@ -73,14 +73,15 @@ If you’ve ever questioned whether a callfile is truly representative, this is 
           │
           ▼
 ┌────────────────────┐
-│    Diagnostics     │
+│   Diagnostics &    │
+│     confidence     │
 └─────────┬──────────┘
           │
           ▼
 ┌────────────────────┐
-│ Balanced Callfile
-  (you can explain 
-   in one slide)
+│  Balanced Callfile │
+│ (explainable in a  │
+│     single slide)  │
 └────────────────────┘
 
 ````
