@@ -94,8 +94,8 @@ If you’ve ever questioned whether a callfile is truly representative, this is 
 
 ```bash
 python store_picker.py \
-    Input_Stores.xlsx \
-    Output_Callfile.csv \
+    input_stores.csv \
+    output_callfile.csv \
     --target-n 150 \
     --id-col Store_ID \
     --strat-cols Country Region Store_Format Store_Type Category
