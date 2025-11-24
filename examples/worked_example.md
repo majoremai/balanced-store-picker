@@ -1,17 +1,17 @@
 ## Grocery Example with The Store Picker™
 
-This example uses the provided demo file: **_[`demo_universe_grocery.csv`](examples/demo_universe_grocery.csv)_**.
-It shows how the Store Picker™ behaves on a realistic grocery estate.
+This example uses the provided demo file: **[`demo_universe_grocery.csv`](examples/demo_universe_grocery.csv)**.
+It shows how _**The Store Picker™**_ behaves on a realistic grocery estate.
 
 ## 1. The universe
 
 The demo file contains **300 synthetic grocery stores** with:
 
 - `Store_ID`
-- `Region` (North, South, East, West)
-- `Format` (Convenience, Superstore, Metro, Extra)
-- `Staffing_Model` (Internal, Agency)
-- `Local_Demographics` (Urban, Suburban, Rural)
+- `Region` <sub> (North, South, East, West) </sub>
+- `Format` <sub> (Convenience, Superstore, Metro, Extra) </sub>
+- `Staffing_Model` <sub> (Internal, Agency) </sub>
+- `Local_Demographics` <sub> (Urban, Suburban, Rural) </sub>
 - `Weekly_Sales`
 - `Competitor_Density`
 
@@ -38,10 +38,10 @@ So we decide to stratify by:
 - `Region`
 - `Format`
 
-This means we’re explicitly asking the Store Picker™ to balance across those two dimensions.
+This means we’re explicitly asking _*The Store Picker™*_ to balance across those two dimensions.
 
 
-## 3. Running the Store Picker™
+## 3. Running _The Store Picker™_
 
 ### Command line
 
@@ -76,9 +76,9 @@ summarise_sample(selected, ["Region", "Format"])
 selected.to_csv("examples/demo_callfile_grocery.csv", index=False)
 ```
 
-## 4. What the Store Picker™ actually does
+## 4. What _The Store Picker™_ actually does
 
-Behind the scenes, the Store Picker™ is doing five simple things:
+Behind the scenes, _*The Store Picker™*_ is doing **five** simple things:
 
 1. **Clean the data**
    It standardises `Region` and `Format` values so “north”, “North ” and “NORTH” are treated the same.
@@ -106,11 +106,23 @@ Behind the scenes, the Store Picker™ is doing five simple things:
    It prints out how many stores were selected in each Region and Format so you can quickly see whether the callfile looks reasonable.
 
 
-## 5. Example outcome (illustrative)
+## 5. Example outcome _(illustrative)_
 
 After running the tool, you might see a distribution like:
 
-**By Region (example):**
+                 REGION
+        ┌────────┬────────┬────────┬────────┐
+        │ North  │ South  │ East   │ West   │
+        └────────┴────────┴────────┴────────┘
+            ↓         ↓        ↓        ↓
+        ┌────────┬────────┬────────┬────────┐
+        │ Conven.│ Superst│ Metro  │ Extra  │
+        │ Conven.│ Superst│ Metro  │ Extra  │   ← Format split within each region
+        │ Conven.│ Superst│ Metro  │ Extra  │
+        │ Conven.│ Superst│ Metro  │ Extra  │
+        └────────┴────────┴────────┴────────┘
+
+**By Region _(example):**
 
 * North: 37
 * South: 39
@@ -124,8 +136,9 @@ After running the tool, you might see a distribution like:
 * Metro: 27
 * Extra: 20
 
-The exact numbers will depend on the underlying universe, but the principle holds:
-larger segments contribute more, smaller ones still get a voice.
+>[!NOTE]
+>The exact numbers will depend on the underlying universe, but the principle holds:
+>**"larger segments contribute more, smaller ones still get a voice."**
 
 What matters is that the callfile:
 
@@ -140,7 +153,7 @@ This demo universe and example are designed to:
 
 * Feel close to real grocery reality
 * Show how simple the interaction can be (one command, clear output)
-* Demonstrate the Store Picker™ as a **practical planning tool**, not an abstract algorithm
+* Demonstrate _*The Store Picker™*_ as a **practical planning tool**, not an abstract algorithm
 
 You can now:
 * 🔁 Swap in your own universe
