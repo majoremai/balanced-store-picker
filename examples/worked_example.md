@@ -122,14 +122,14 @@ After running the tool, you might see a distribution like:
         │ Conven.│ Superst│ Metro  │ Extra  │
         └────────┴────────┴────────┴────────┘
 
-**By Region _(example):**
+**By Region _(example)_:**
 
 * North: 37
 * South: 39
 * East: 36
 * West: 38
 
-**By Format (example):**
+**By Format _(example)_:**
 
 * Convenience: 55
 * Superstore: 48
