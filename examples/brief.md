@@ -22,6 +22,6 @@ Not another spreadsheet workaround, but a repeatable way of working that removes
 >[!TIP]
 >Most teams don’t ask for a _**“stratified sample.”**_  They ask for something like this:
 
-![Sample internal request email](https://github.com/majoremai/balanced-store-picker/assets/Attachment-1.png)
+assets/Attachment-1.png
 
 <sub>*Fictional email example illustrating how balanced grocery callfiles are typically requested ahead of activation cycles.*</sub>
