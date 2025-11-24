@@ -1,4 +1,4 @@
-## Sample Brief: _Company XYZ Grocery_
+## Sample Brief: _Company XYZ Grocery Callfile_
 This brief shows how balanced callfiles are typically requested in grocery activation cycles — fictional, anonymised and safe to publish.
 
 It can be used to:
