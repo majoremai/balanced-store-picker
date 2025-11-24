@@ -24,7 +24,4 @@ Not another spreadsheet workaround, but a repeatable way of working that removes
 
 ![Sample internal request email](email_request_outlook.png)
 
-<small> *Fictional Outlook-style example illustrating how balanced grocery callfiles are typically requested ahead of activation cycles.* </small>
-
-
-
+<sub> *Fictional email example illustrating how balanced grocery callfiles are typically requested ahead of activation cycles.* </sub>
