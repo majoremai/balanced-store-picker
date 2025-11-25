@@ -1,80 +1,103 @@
-<svg width="850" height="280" viewBox="0 0 850 280" xmlns="http://www.w3.org/2000/svg">
+<svg width="850" height="260" viewBox="0 0 850 260" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      /* Typography */
-      .font-sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      /* Global font */
+      svg {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      }
+
       .text-xs { font-size: 12px; }
       .text-sm { font-size: 14px; }
       .font-medium { font-weight: 500; }
       .font-bold { font-weight: 600; }
 
-      /* Colors */
-      .text-header { fill: #6B7280; } /* Gray 500 */
-      .text-primary { fill: #111827; } /* Gray 900 */
-      .text-secondary { fill: #374151; } /* Gray 700 */
-      .text-success { fill: #059669; } /* Emerald 600 */
+      .text-header { fill: #F9FAFF; }      /* very light for subtle header */
+      .text-primary { fill: #0F172A; }
+      .text-secondary { fill: #475569; }
+      .text-success { fill: #059669; }
 
-      /* Pill Styles */
-      .pill-blue-bg { fill: #EFF6FF; }
-      .pill-blue-text { fill: #1D4ED8; }
-      .pill-amber-bg { fill: #FFFBEB; }
-      .pill-amber-text { fill: #B45309; }
+      .pill-bg { fill: #E7ECFF; }
+      .pill-text { fill: #3753FF; }
 
-      /* Structural */
-      .bg-card { fill: #FFFFFF; }
-      .border-line { stroke: #E5E7EB; stroke-width: 1; }
+      .row-divider { stroke: #E2E8F0; stroke-width: 1; }
+      .row-alt { fill: #F9FAFB; }
+      .header-bg { fill: #3753FF; }
+
+      .card-bg { fill: #FFFFFF; stroke: #E5E7EB; stroke-width: 1; }
     </style>
+
+    <!-- Soft shadow filter -->
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
   </defs>
 
-  <rect x="4" y="4" width="842" height="260" rx="12" fill="#F3F4F6" />
-  <rect x="0.5" y="0.5" width="842" height="260" rx="12" class="bg-card border-line" stroke="#E5E7EB" />
+  <!-- Page background -->
+  <rect x="0" y="0" width="850" height="260" fill="#F3F4F6" />
 
-  <g transform="translate(0, 45)">
-    <text x="30" y="0" class="font-sans text-xs font-medium text-header" letter-spacing="0.5">STORE ID</text>
-    <text x="120" y="0" class="font-sans text-xs font-medium text-header" letter-spacing="0.5">REGION</text>
-    <text x="210" y="0" class="font-sans text-xs font-medium text-header" letter-spacing="0.5">FORMAT</text>
-    <text x="350" y="0" class="font-sans text-xs font-medium text-header" letter-spacing="0.5">STAFFING</text>
-    <text x="480" y="0" class="font-sans text-xs font-medium text-header" letter-spacing="0.5">DEMOGRAPHICS</text>
-    <text x="700" y="0" class="font-sans text-xs font-medium text-header" text-anchor="end" letter-spacing="0.5">WEEKLY SALES</text>
-    <text x="780" y="0" class="font-sans text-xs font-medium text-header" text-anchor="middle" letter-spacing="0.5">DENSITY</text>
-  </g>
+  <!-- Card container -->
+  <g filter="url(#cardShadow)">
+    <rect x="16" y="16" width="818" height="228" rx="12" class="card-bg" />
 
-  <line x1="0" y1="65" x2="842" y2="65" class="border-line" />
+    <!-- Header band inside card -->
+    <g transform="translate(16, 16)">
+      <rect x="16" y="16" width="786" height="36" rx="8" class="header-bg" />
 
-  <g transform="translate(0, 105)">
-    <text x="30" y="5" class="font-sans text-sm font-bold text-primary">S0001</text>
-    <text x="120" y="5" class="font-sans text-sm text-secondary">North</text>
-    <text x="210" y="5" class="font-sans text-sm text-secondary">Convenience</text>
-    <rect x="340" y="-12" width="70" height="24" rx="12" class="pill-blue-bg" />
-    <text x="375" y="4" class="font-sans text-xs font-medium pill-blue-text" text-anchor="middle">Internal</text>
-    <text x="480" y="5" class="font-sans text-sm text-secondary">Urban</text>
-    <text x="700" y="5" class="font-sans text-sm font-bold text-success" text-anchor="end">$132,000</text>
-    <text x="780" y="5" class="font-sans text-sm text-secondary" text-anchor="middle">3</text>
-  </g>
+      <g transform="translate(0, 40)">
+        <text x="32"  class="text-xs font-bold text-header" letter-spacing="0.08em">STORE ID</text>
+        <text x="132" class="text-xs font-bold text-header" letter-spacing="0.08em">REGION</text>
+        <text x="232" class="text-xs font-bold text-header" letter-spacing="0.08em">FORMAT</text>
+        <text x="372" class="text-xs font-bold text-header" letter-spacing="0.08em">STAFFING</text>
+        <text x="512" class="text-xs font-bold text-header" letter-spacing="0.08em">DEMOGRAPHICS</text>
+        <text x="760" class="text-xs font-bold text-header" text-anchor="end" letter-spacing="0.08em">WEEKLY SALES</text>
+      </g>
 
-  <line x1="30" y1="135" x2="812" y2="135" class="border-line" />
+      <!-- Divider under header -->
+      <line x1="32" y1="64" x2="802" y2="64" class="row-divider" />
 
-  <g transform="translate(0, 170)">
-    <text x="30" y="5" class="font-sans text-sm font-bold text-primary">S0002</text>
-    <text x="120" y="5" class="font-sans text-sm text-secondary">South</text>
-    <text x="210" y="5" class="font-sans text-sm text-secondary">Superstore</text>
-    <rect x="340" y="-12" width="70" height="24" rx="12" class="pill-amber-bg" />
-    <text x="375" y="4" class="font-sans text-xs font-medium pill-amber-text" text-anchor="middle">Agency</text>
-    <text x="480" y="5" class="font-sans text-sm text-secondary">Suburban</text>
-    <text x="700" y="5" class="font-sans text-sm font-bold text-success" text-anchor="end">$118,500</text>
-    <text x="780" y="5" class="font-sans text-sm text-secondary" text-anchor="middle">5</text>
-  </g>
+      <!-- Row 1 -->
+      <g transform="translate(0, 96)">
+        <text x="32"  class="text-sm font-bold text-primary">S0001</text>
+        <text x="132" class="text-sm text-secondary">North</text>
+        <text x="232" class="text-sm text-secondary">Convenience</text>
 
-  <line x1="30" y1="200" x2="812" y2="200" class="border-line" />
+        <rect x="362" y="-14" width="90" height="26" rx="13" class="pill-bg" />
+        <text x="407" y="5" class="text-xs font-medium pill-text" text-anchor="middle">Internal</text>
 
-  <g transform="translate(0, 235)">
-    <text x="30" y="5" class="font-sans text-sm font-bold text-primary">S0003</text>
-    <text x="120" y="5" class="font-sans text-sm text-secondary">East</text>
-    <text x="210" y="5" class="font-sans text-sm text-secondary">Metro</text>
-    <rect x="340" y="-12" width="70" height="24" rx="12" class="pill-blue-bg" />
-    <text x="375" y="4" class="font-sans text-xs font-medium pill-blue-text" text-anchor="middle">Internal</text>
-    <text x="480" y="5" class="font-sans text-sm text-secondary">Urban</text>
-    <text x="700" y="5" class="font-sans text-sm font-bold text-success" text-anchor="end">$141,200</text>
-    <text x="780" y="5" class="font-sans text-sm text-secondary" text-anchor="middle">4</text>
+        <text x="512" class="text-sm text-secondary">Urban</text>
+        <text x="760" class="text-sm font-bold text-success" text-anchor="end">$132,000</text>
+      </g>
+
+      <line x1="32" y1="124" x2="802" y2="124" class="row-divider" />
+
+      <!-- Row 2 (alt bg) -->
+      <rect x="16" y="124" width="786" height="48" class="row-alt" rx="6" />
+      <g transform="translate(0, 152)">
+        <text x="32"  class="text-sm font-bold text-primary">S0002</text>
+        <text x="132" class="text-sm text-secondary">South</text>
+        <text x="232" class="text-sm text-secondary">Superstore</text>
+
+        <rect x="362" y="-14" width="90" height="26" rx="13" class="pill-bg" />
+        <text x="407" y="5" class="text-xs font-medium pill-text" text-anchor="middle">Agency</text>
+
+        <text x="512" class="text-sm text-secondary">Suburban</text>
+        <text x="760" class="text-sm font-bold text-success" text-anchor="end">$188,500</text>
+      </g>
+
+      <line x1="32" y1="180" x2="802" y2="180" class="row-divider" />
+
+      <!-- Row 3 -->
+      <g transform="translate(0, 208)">
+        <text x="32"  class="text-sm font-bold text-primary">S0003</text>
+        <text x="132" class="text-sm text-secondary">East</text>
+        <text x="232" class="text-sm text-secondary">Metro</text>
+
+        <rect x="362" y="-14" width="90" height="26" rx="13" class="pill-bg" />
+        <text x="407" y="5" class="text-xs font-medium pill-text" text-anchor="middle">Internal</text>
+
+        <text x="512" class="text-sm text-secondary">Urban</text>
+        <text x="760" class="text-sm font-bold text-success" text-anchor="end">$141,200</text>
+      </g>
+    </g>
   </g>
 </svg>
