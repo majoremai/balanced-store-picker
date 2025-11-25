@@ -43,48 +43,10 @@ If you’ve ever questioned whether a callfile is truly representative, this is 
 ## The idea in one picture
 > [!TIP]
 > A simplified visual of how the Store Picker™ transforms a raw store universe into a balanced callfile.
-```
 
-┌────────────────────┐
-│   Store Universe   │
-└─────────┬──────────┘
-          │
-          ▼
-┌────────────────────┐
-│    Make it clean   │
-└─────────┬──────────┘
-          │
-          ▼
-┌────────────────────┐
-│   Group by what    │
-│      matters       │
-│  (Region, Format)  │
-└─────────┬──────────┘
-          │
-          ▼
-┌────────────────────┐
-│   Allocate fairly  │
-└─────────┬──────────┘
-          │
-          ▼
-┌────────────────────┐
-│  Pick consistently │
-└─────────┬──────────┘
-          │
-          ▼
-┌────────────────────┐
-│   Diagnostics &    │
-│     confidence     │
-└─────────┬──────────┘
-          │
-          ▼
-┌────────────────────┐
-│  Balanced Callfile │
-│ (explainable in a  │
-│     single slide)  │
-└────────────────────┘
-
-````
+<p align="left">
+  <img src="./assets/picker_model.svg" width="300" />
+</p>
 
 ## How to use it
 > [!TIP]
