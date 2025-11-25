@@ -9,7 +9,7 @@ _A lightweight, defensible stratified sampling engine for building balanced fiel
 > [!NOTE]
 > Callfiles shape how teams show up in the market. Yet most callfiles are built from habit: recycled lists, legacy priorities, or whatever feels familiar. The result is uneven coverage, skewed insights and missed opportunities.
 
-The _**Majórem Store Picker™**_ changes that. 
+_**The Store Picker™**_ changes that. 
 It offers a simple, structured way to create a callfile that genuinely reflects your universe — not guesswork, not convenience, not a spreadsheet stitched together at speed.
 
 It’s built for teams who want their field decisions to be fairer, smarter and anchored in reality.
@@ -42,7 +42,7 @@ If you’ve ever questioned whether a callfile is truly representative, this is 
 
 ## The idea in one picture
 > [!TIP]
-> A simplified visual of how the Store Picker™ transforms a raw store universe into a balanced callfile.
+> A simplified visual of how _**The Store Picker™**_ transforms a raw store universe into a balanced callfile.
 
 <p align="center">
   <img src="./assets/picker_model.svg" width="250" />
