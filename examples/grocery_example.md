@@ -13,7 +13,6 @@ The demo file contains **300 synthetic grocery stores** with:
 - `Staffing_Model` <sub> (Internal, Agency) </sub>
 - `Local_Demographics` <sub> (Urban, Suburban, Rural) </sub>
 - `Weekly_Sales`
-- `Competitor_Density`
 
 It’s not a real retailer, but the mix is intentionally realistic: 
 more Convenience and Superstore, more Urban/Suburban, a spread of performance and competition.
