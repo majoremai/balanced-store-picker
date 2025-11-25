@@ -17,15 +17,35 @@ The demo file contains **300 synthetic grocery stores** with:
 It’s not a real retailer, but the mix is intentionally realistic: 
 more Convenience and Superstore, more Urban/Suburban, a spread of performance and competition.
 
-A small sample looks like this: 
-<p align="left">
-  <img src="../assets/demo_table.svg" width="800" />
-</p>
+A small sample looks like this:
+<div style="font-size: 8px;">
+
+
+<table>
+<thead>
+<tr>
+<th>store_id</th><th>region</th><th>format</th><th>staffing</th><th>demographic</th><th>weekly_sales</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S0001</td><td>north</td><td>convenience</td><td><code>internal</code></td><td>urban</td><td>132,000</td>
+</tr>
+<tr>
+<td>S0002</td><td>south</td><td>superstore</td><td><code>agency</code></td><td>suburban</td><td>158,700</td>
+</tr>
+<tr>
+<td>S0003</td><td>east</td><td>metro</td><td><code>internal</code></td><td>urban</td><td>141,200</td>
+</tr>
+</tbody>
+</table>
+
+</div>
 
 ## 2. The brief
 > [!NOTE]
 > “We need a balanced callfile of **150 stores** for a measurement cycle. 
-> We care about coverage by Region and Format. 
+> We care about coverage by _Region_ and _Format_. 
 > The callfile needs to be fair, explainable and easy to regenerate.”
 
 So we decide to stratify by:
