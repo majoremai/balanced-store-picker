@@ -19,13 +19,9 @@ It’s not a real retailer, but the mix is intentionally realistic:
 more Convenience and Superstore, more Urban/Suburban, a spread of performance and competition.
 
 A small sample looks like this: 
-<small>
-| Store_ID | Region | Format      | Staffing_Model | Local_Demographics | Weekly_Sales | Competitor_Density |
-|----------|--------|-------------|----------------|--------------------|--------------|--------------------|
-| S0001    | North  | Convenience | Internal       | Urban              | 132,000      | 3                  |
-| S0002    | South  | Superstore  | Agency         | Suburban           | 118,500      | 5                  |
-| S0003    | East   | Metro       | Internal       | Urban              | 141,200      | 4                  |
-</small>
+<p align="left">
+  <img src="../assets/demo_table.svg" width="800" />
+</p>
 
 ## 2. The brief
 > [!NOTE]
