@@ -1,6 +1,6 @@
 ## Grocery Example with The Store Picker™
 
-This example uses the provided demo file: **[`demo_universe_grocery.csv`](examples/demo_universe_grocery.csv)**.
+This example uses the provided demo file: **[`demo_universe_grocery.csv`](doc/demo_universe_grocery.csv)**.
 It shows how _**The Store Picker™**_ behaves on a realistic grocery estate.
 
 ## 1. The universe
