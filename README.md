@@ -45,7 +45,7 @@ If you’ve ever questioned whether a callfile is truly representative, this is 
 > A simplified visual of how the Store Picker™ transforms a raw store universe into a balanced callfile.
 
 <p align="center">
-  <img src="./assets/picker_model.svg" width="350" />
+  <img src="./assets/picker_model.svg" width="250" />
 </p>
 
 ## How to use it
