@@ -171,8 +171,8 @@ This demo universe and example are designed to:
 * Demonstrate _*The Store Picker™*_ as a **practical planning tool**, not an abstract algorithm
 
 You can now:
-* 🔁 Swap in your own universe
-* 🎯 Change target size (e.g., 80, 200, 500 stores)
+* Swap in your own universe
+* Change target size (e.g., 80, 200, 500 stores)
 * 🧩 Stratify by different attributes (e.g., `Region`, `Format`, `Local_Demographics`)
 
 
