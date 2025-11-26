@@ -83,7 +83,7 @@ selected.to_csv("examples/demo_callfile_grocery.csv", index=False)
 Behind the scenes, _*The Store Picker™*_ is doing **five** simple things:
 
 1. **Clean the data**
-   It standardises `Region` and `Format` values so “north”, “North ” and “NORTH” are treated the same.
+   It standardises `Region` and `Format` values so “north”, “North” and “NORTH” are treated the same.
 
 2. **Group the stores**
    It builds segments such as:
