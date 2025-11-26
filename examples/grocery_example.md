@@ -113,7 +113,7 @@ Behind the scenes, _*The Store Picker™*_ is doing **five** simple things:
 After running the tool, you might see a distribution like:
 
 <p align="left">
-<img src="../assets/model_example.svg" width="550" />
+<img src="../assets/model_example.svg" width="800" />
 <br>
     
 **By Region _(example)_:**
