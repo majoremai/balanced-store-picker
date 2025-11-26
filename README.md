@@ -92,7 +92,7 @@ _The Store Picker™_ reflects that philosophy: practical, structured and design
 
 ## A real example _(anonymised)_
 
-A national supplier needed *150 stores* for a call cycle.
+A national supplier needed **150 stores** for a call cycle.
 > [!NOTE]
 >The old approach was manual — _**“grab a few from each region.”**_
 It felt easy, but it consistently oversampled big, familiar stores and ignored newer formats.
