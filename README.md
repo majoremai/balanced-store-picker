@@ -49,8 +49,7 @@ If you’ve ever questioned whether a callfile is truly representative, this is 
 </p>
 
 ## How to use it
-> [!TIP]
-> The fastest way to run _**The Store Picker™**_:
+The fastest way to run _**The Store Picker™**_:
 
 #### Command line
 
