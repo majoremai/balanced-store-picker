@@ -56,7 +56,7 @@ So we decide to stratify by:
 This means we’re explicitly asking _*The Store Picker™*_ to balance across those two dimensions.
 
 
-## 3. Running _The Store Picker™
+## 3. Running _The Store Picker™_
 
 ### Inside Python 🐍
 
