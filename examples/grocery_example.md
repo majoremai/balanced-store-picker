@@ -112,18 +112,10 @@ Behind the scenes, _*The Store Picker™*_ is doing **five** simple things:
 
 After running the tool, you might see a distribution like:
 
-                 REGION
-        ┌────────┬────────┬────────┬────────┐
-        │ North  │ South  │ East   │ West   │
-        └────────┴────────┴────────┴────────┘
-            ↓         ↓        ↓        ↓
-        ┌────────┬────────┬────────┬────────┐
-        │ Conven.│ Superst│ Metro  │ Extra  │
-        │ Conven.│ Superst│ Metro  │ Extra  │   ← Format split within each region
-        │ Conven.│ Superst│ Metro  │ Extra  │
-        │ Conven.│ Superst│ Metro  │ Extra  │
-        └────────┴────────┴────────┴────────┘
-
+<p align="center">
+<img src="../assets/model_example.svg" width="550" />
+<br>
+    
 **By Region _(example)_:**
 
 * North: 37
