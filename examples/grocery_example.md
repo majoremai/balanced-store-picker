@@ -56,22 +56,9 @@ So we decide to stratify by:
 This means we’re explicitly asking _*The Store Picker™*_ to balance across those two dimensions.
 
 
-## 3. Running _The Store Picker™_
+## 3. Running _The Store Picker™
 
-### Command line
-
-From the repo root:
-
-```bash
-python store_picker.py \
-    examples/demo_universe_grocery.csv \
-    examples/demo_callfile_grocery.csv \
-    --target-n 150 \
-    --id-col Store_ID \
-    --strat-cols Region Format
-````
-
-### Or inside Python
+### Inside Python 🐍
 
 ```python
 import pandas as pd
