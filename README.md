@@ -83,9 +83,9 @@ That’s all you need.
 
 We believe great tools should:
 
-* **Be simple enough to trust**
-* **Be transparent enough to explain**
-* **Be flexible enough to reuse and scale**
+* **Be simple** enough to trust
+* **Be transparent** enough to explain
+* **Be flexible enough** to reuse and scale
 * **Support real commercial routines**, not idealised ones
 
 _The Store Picker™_ reflects that philosophy: practical, structured and designed for the way teams actually work.
